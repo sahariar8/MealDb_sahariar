@@ -23,7 +23,7 @@ const Cart = () => {
             {
                 noCart?<p className='text-center text-4xl font-bold pt-40'>{noCart}</p>
                 :
-                <div className='grid md:grid-cols-2 px-20 pt-10 gap-6 mb-6'>
+                <div className='grid md:grid-cols-2 md:px-20 pt-10 gap-6 mb-6'>
                     {
                        isShow?cartItems.map(cartitem =><CartItem cartitem ={cartitem} key={cartitem.idMeal}></CartItem>)
                        :
