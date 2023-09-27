@@ -1,0 +1,15 @@
+a.active{
+    background-color: chocolate;
+    border-radius: 5px;
+    color: azure;
+    padding: 0 5px;
+}
+.category a{
+    background-color: rgb(236, 142, 75);
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.category a.active{
+    background-color: chocolate;
+    color: azure;
+}
